@@ -1,5 +1,32 @@
+# IDE files
 .idea
+.vscode/settings.json
+
+# Binários executáveis
+github-mcp-server
+code-analyzer-server
+mcpcurl
+mcp-server
+
+# Binários específicos por diretório
 cmd/github-mcp-server/github-mcp-server
-# Added by goreleaser init:
+cmd/code-analyzer-server/code-analyzer-server
+cmd/mcpcurl/mcpcurl
+
+# Arquivos de build
 dist/
+bin/
 __debug_bin*
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de teste
+*.test
+coverage.out
+
